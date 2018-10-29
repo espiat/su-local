@@ -120,12 +120,10 @@ function font_awesome_new_font() {
     
 
  
-   // wp_register_style( 'new-fontawesome', PLUG_PATH . 'public/css/fontawesome.min.css', false, '5.0.13' ); 
-   
+    //wp_register_style( 'new-fontawesome', PLUG_PATH . 'public/css/fontawesome.min.css', false, '5.0.13' ); 
+ 
 
-   // wp_register_style( 'new-fontawesome', 'https://www.ecovis.com/ae/wp-content/plugins/su-local/public/css/fontawesome.min.css', false, '5.0.13' ); 
-
-    wp_register_style( 'font-awesome', 'https://www.ecovis.com/ae/wp-content/plugins/su-local/public/font-awesome-4.7.0/css/font-awesome.min.css', false, '4.7.0' ); 
+    wp_register_style( 'font-awesome', PLUG_PATH . 'public/font-awesome-4.7.0/css/font-awesome.min.css', false, '4.7.0' ); 
 
 
     wp_enqueue_style( 'font-awesome' );
