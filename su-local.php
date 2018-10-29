@@ -117,15 +117,9 @@ function font_awesome_stylesheet() {
 
 add_action( 'wp_enqueue_scripts', 'font_awesome_new_font', 10 );
 function font_awesome_new_font() {
-    
-
- 
     //wp_register_style( 'new-fontawesome', PLUG_PATH . 'public/css/fontawesome.min.css', false, '5.0.13' ); 
- 
-
-    wp_register_style( 'font-awesome', PLUG_PATH . 'public/font-awesome-4.7.0/css/font-awesome.min.css', false, '4.7.0' ); 
-
-
+ 	// wp_register_style( 'font-awesome', PLUG_PATH . 'public/font-awesome-4.7.0/css/font-awesome.min.css', false, '4.7.0' ); 
+	wp_register_style( 'font-awesome', plugins_url( 'public/font-awesome-4.7.0/css/font-awesome.min.css', __FILE__  ), false, '4.7.0' );
     wp_enqueue_style( 'font-awesome' );
 }
 
