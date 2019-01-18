@@ -1,5 +1,5 @@
 # Plugin-su-local-Shortcode-Ultimate
 
-This Plugin deregister the fontawesome library from shortcode ultimate and register a local library.
+This plugin deregister the fontawesome library from shortcode ultimate and register a local library.
 
-Fontawesome 4.7.0
+Compatible with: Fontawesome 4.7.0
